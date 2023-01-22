@@ -2,7 +2,7 @@ function Carro(velocMaxima = 200, delta = 5){
     let velocAtual = 0
 
     this.acelerar = () => {
-        if(velocAtual + delta <= velocMaxima){
+        if(velocidadeAtual + delta <= velocMaxima){
             velocAtual += delta
         }else{
             velocAtual = velocMaxima
